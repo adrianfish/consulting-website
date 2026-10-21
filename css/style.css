@@ -1,0 +1,40 @@
+body {
+  font-family: TildaSans, Georgia, serif;
+  font-style: normal;
+  font-weight: 400;
+  padding: 20px;
+}
+
+#contact-container {
+  font-family: sans-serif;
+  font-style: italic;
+  margin-bottom: 100px;
+  #name {
+    font-weight: 600;
+    font-size: 1.1em;
+  }
+}
+
+h1 {
+  font-weight: 600;
+  width: fit-content;
+  margin-inline: auto;
+}
+
+#content {
+  width: 600px;
+  margin-inline: auto;
+  line-height: 1.5em;
+}
+
+@media (width < 600px) {
+  #content {
+    width: 80%;
+  }
+}
+
+@font-face {
+  font-family: "TildaSans";
+  font-weight: 250 1000;
+  src: url(https://static.tildacdn.com/fonts/tildasans/TildaSans-VF.woff2) format('woff2-variations'), url(https://static.tildacdn.com/fonts/tildasans/TildaSans-VF.woff) format('woff-variations');
+}
